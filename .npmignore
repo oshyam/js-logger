@@ -1,0 +1,9 @@
+test/
+examples/
+docs/
+.git/
+.gitignore
+.env*
+coverage/
+.nyc_output/
+*.log

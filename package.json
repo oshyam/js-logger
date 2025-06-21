@@ -1,0 +1,44 @@
+{
+  "name": "jscolor-logger",
+  "version": "1.1.0",
+  "description": "A simple, colorful logger with icons and formatting",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "src/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node examples/basic-usage.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "console",
+    "colors",
+    "chalk",
+    "icons",
+    "formatting"
+  ],
+  "author": "Shyam Kunwar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oshyam/js-logger.git/"
+  },
+  "bugs": {
+    "url": "https://github.com/oshyam/js-logger/issues"
+  },
+  "homepage": "https://github.com/oshyam/js-logger#readme",
+
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
