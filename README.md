@@ -1,6 +1,6 @@
 # jscolor-logger
 
-A lightweight, colorful logger for Node.js applications with icons and formatting.
+A lightweight, colorful logger for Node.js and TypeScript applications with icons and formatting.
 
 ## Installation
 
@@ -9,6 +9,8 @@ npm install jscolor-logger
 ```
 
 ## Usage
+
+### JavaScript (CommonJS)
 
 Import the logger:
 
@@ -23,6 +25,21 @@ const { jslogger } = require('jscolor-logger');
 const logger = new jslogger({ logLevel: 'debug', colorize: true });
 ```
 
+### TypeScript / ES Modules
+
+Import the logger:
+
+```ts
+import { logger } from 'jscolor-logger';
+```
+
+Or create a custom logger instance:
+
+```ts
+import { jslogger } from 'jscolor-logger';
+const logger = new jslogger({ logLevel: 'debug', colorize: true });
+```
+
 ### Log Methods
 
 ```js
@@ -33,9 +50,9 @@ logger.error('Failed to connect to external API');
 logger.debug('User authentication flow started');
 ```
 
-## Advanced Usage:
+## Advanced Usage
 
-See [examples/advanced-usage.js](examples/advanced-usage.js) and [examples/custom-logger.js](examples/custom-logger.js) for more.
+See [examples/advanced-usage.js](examples/advanced-usage.js), [examples/advanced-usage.ts](examples/advanced-usage.ts), [examples/custom-logger.js](examples/custom-logger.js), and [examples/custom-logger.ts](examples/custom-logger.ts) for more.
 
 ## API Documentation
 
