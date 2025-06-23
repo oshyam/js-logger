@@ -33,7 +33,7 @@ logger.error('Failed to connect to external API');
 logger.debug('User authentication flow started');
 ```
 
-## Advanced Usage
+## Advanced Usage:
 
 See [examples/advanced-usage.js](examples/advanced-usage.js) and [examples/custom-logger.js](examples/custom-logger.js) for more.
 
