@@ -10,6 +10,7 @@
     "README.md",
     "LICENSE"
   ],
+  "type": "module",
   "scripts": {
     "test": "node test/test.js",
     "example": "node examples/basic-usage.js",
@@ -34,7 +35,6 @@
     "url": "https://github.com/oshyam/js-logger/issues"
   },
   "homepage": "https://github.com/oshyam/js-logger#readme",
-
   "dependencies": {
     "chalk": "^4.1.2"
   },
